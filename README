@@ -1,0 +1,21 @@
+This project creates plots of interesting dynamical systems.
+Examples:
+2D brownian motion
+3D brownian motion
+fractal generator(s)
+bouncing ball in gravity
+colliding balls, inelastic
+Solomon/Fogleman tracer and phase plot
+Forced/Damped system
+
+
+Control flow:
+Executor requests that a specific module runs and listens to end or switch
+if switch bounce to new module
+if end clean up and close
+
+Need to decide that either each module owns its own plotting 
+or they all plug into a common interface
+
+Need to find/pick a plotter (could just print to file for now)
+
